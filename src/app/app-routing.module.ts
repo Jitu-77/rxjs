@@ -8,6 +8,9 @@ import { ListsComponent } from './home/observables/lists/lists.component';
 import { IntervalTimerComponent } from './home/observables/interval-timer/interval-timer.component';
 import { OfFromComponent } from './home/observables/of-from/of-from.component';
 import { ToArrayComponent } from './home/observables/to-array/to-array.component';
+import { CustomObservablesComponent } from './home/observables/custom-observables/custom-observables.component';
+import { MapComponent } from './home/observables/map/map.component';
+import { PluckComponent } from './home/observables/pluck/pluck.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -19,6 +22,9 @@ const routes: Routes = [
     {path:'from-event',component:FromEventComponent},
     {path:'interval-timer',component:IntervalTimerComponent},
     {path:'to-array',component:ToArrayComponent},
+    {path:'custom-observables',component:CustomObservablesComponent},
+    {path:'map',component:MapComponent},
+    {path:'pluck',component:PluckComponent},
   ]},
   {path:'**',component:HomeComponent}
 ];

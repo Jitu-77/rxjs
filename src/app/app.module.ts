@@ -11,6 +11,9 @@ import { ListsComponent } from './home/observables/lists/lists.component';
 import { IntervalTimerComponent } from './home/observables/interval-timer/interval-timer.component';
 import { OfFromComponent } from './home/observables/of-from/of-from.component';
 import { ToArrayComponent } from './home/observables/to-array/to-array.component';
+import { CustomObservablesComponent } from './home/observables/custom-observables/custom-observables.component';
+import { MapComponent } from './home/observables/map/map.component';
+import { PluckComponent } from './home/observables/pluck/pluck.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ToArrayComponent } from './home/observables/to-array/to-array.component
     ListsComponent,
     IntervalTimerComponent,
     OfFromComponent,
-    ToArrayComponent
+    ToArrayComponent,
+    CustomObservablesComponent,
+    MapComponent,
+    PluckComponent
   ],
   imports: [
     BrowserModule,
