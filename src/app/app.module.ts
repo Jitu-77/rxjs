@@ -14,6 +14,10 @@ import { ToArrayComponent } from './home/observables/to-array/to-array.component
 import { CustomObservablesComponent } from './home/observables/custom-observables/custom-observables.component';
 import { MapComponent } from './home/observables/map/map.component';
 import { PluckComponent } from './home/observables/pluck/pluck.component';
+import { FilterComponent } from './home/observables/filter/filter.component';
+import { TapComponent } from './home/observables/tap/tap.component';
+import { TakeComponent } from './home/observables/take/take.component';
+import { RetryComponent } from './home/observables/retry/retry.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { PluckComponent } from './home/observables/pluck/pluck.component';
     ToArrayComponent,
     CustomObservablesComponent,
     MapComponent,
-    PluckComponent
+    PluckComponent,
+    FilterComponent,
+    TapComponent,
+    TakeComponent,
+    RetryComponent
   ],
   imports: [
     BrowserModule,

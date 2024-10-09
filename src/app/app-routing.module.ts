@@ -11,6 +11,10 @@ import { ToArrayComponent } from './home/observables/to-array/to-array.component
 import { CustomObservablesComponent } from './home/observables/custom-observables/custom-observables.component';
 import { MapComponent } from './home/observables/map/map.component';
 import { PluckComponent } from './home/observables/pluck/pluck.component';
+import { FilterComponent } from './home/observables/filter/filter.component';
+import { TapComponent } from './home/observables/tap/tap.component';
+import { TakeComponent } from './home/observables/take/take.component';
+import { RetryComponent } from './home/observables/retry/retry.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -25,6 +29,10 @@ const routes: Routes = [
     {path:'custom-observables',component:CustomObservablesComponent},
     {path:'map',component:MapComponent},
     {path:'pluck',component:PluckComponent},
+    {path:'filter',component:FilterComponent},
+    {path:'tap',component:TapComponent},
+    {path:'take',component:TakeComponent},
+    {path:'retry',component:RetryComponent},
   ]},
   {path:'**',component:HomeComponent}
 ];
