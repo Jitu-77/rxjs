@@ -18,6 +18,7 @@ import { FilterComponent } from './home/observables/filter/filter.component';
 import { TapComponent } from './home/observables/tap/tap.component';
 import { TakeComponent } from './home/observables/take/take.component';
 import { RetryComponent } from './home/observables/retry/retry.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { RetryComponent } from './home/observables/retry/retry.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
