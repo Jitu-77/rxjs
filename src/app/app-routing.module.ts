@@ -15,6 +15,7 @@ import { FilterComponent } from './home/observables/filter/filter.component';
 import { TapComponent } from './home/observables/tap/tap.component';
 import { TakeComponent } from './home/observables/take/take.component';
 import { RetryComponent } from './home/observables/retry/retry.component';
+import { DebounceTimeDistinctUntilChangeComponent } from './home/observables/debounce-time-distinct-until-change/debounce-time-distinct-until-change.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -33,6 +34,7 @@ const routes: Routes = [
     {path:'tap',component:TapComponent},
     {path:'take',component:TakeComponent},
     {path:'retry',component:RetryComponent},
+    {path:'debounce-time-distinct-until-change',component:DebounceTimeDistinctUntilChangeComponent},
   ]},
   {path:'**',component:HomeComponent}
 ];

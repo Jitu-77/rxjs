@@ -19,6 +19,7 @@ import { TapComponent } from './home/observables/tap/tap.component';
 import { TakeComponent } from './home/observables/take/take.component';
 import { RetryComponent } from './home/observables/retry/retry.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DebounceTimeDistinctUntilChangeComponent } from './home/observables/debounce-time-distinct-until-change/debounce-time-distinct-until-change.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { HttpClientModule } from '@angular/common/http';
     FilterComponent,
     TapComponent,
     TakeComponent,
-    RetryComponent
+    RetryComponent,
+    DebounceTimeDistinctUntilChangeComponent
   ],
   imports: [
     BrowserModule,
