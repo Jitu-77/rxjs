@@ -8,7 +8,7 @@ import { interval, map, mergeAll, mergeMap, of, take } from 'rxjs';
 })
 export class MergeMapComponent {
   ngOnInit(){
-    // without Merge All
+    // using double subscription
     // const videoMergeStream = interval(1000).pipe(map(res=> this.getData(res)),take(5))
     // videoMergeStream.subscribe((res)=>{ 
     //   console.log(res,"OBSERVABLE")
