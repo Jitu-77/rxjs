@@ -22,6 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { DebounceTimeDistinctUntilChangeComponent } from './home/observables/debounce-time-distinct-until-change/debounce-time-distinct-until-change.component';
 import { SubjectComponent } from './home/observables/subject/subject.component';
 import { ReplaySubjectComponent } from './home/observables/replay-subject/replay-subject.component';
+import { AsyncComponent } from './home/observables/async/async.component';
+import { ConcatMergeComponent } from './home/observables/concat-merge/concat-merge.component';
+import { MergeMapComponent } from './home/observables/merge-map/merge-map.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +46,10 @@ import { ReplaySubjectComponent } from './home/observables/replay-subject/replay
     RetryComponent,
     DebounceTimeDistinctUntilChangeComponent,
     SubjectComponent,
-    ReplaySubjectComponent
+    ReplaySubjectComponent,
+    AsyncComponent,
+    ConcatMergeComponent,
+    MergeMapComponent
   ],
   imports: [
     BrowserModule,

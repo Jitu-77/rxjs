@@ -18,6 +18,9 @@ import { RetryComponent } from './home/observables/retry/retry.component';
 import { DebounceTimeDistinctUntilChangeComponent } from './home/observables/debounce-time-distinct-until-change/debounce-time-distinct-until-change.component';
 import { SubjectComponent } from './home/observables/subject/subject.component';
 import { ReplaySubjectComponent } from './home/observables/replay-subject/replay-subject.component';
+import { AsyncComponent } from './home/observables/async/async.component';
+import { ConcatMergeComponent } from './home/observables/concat-merge/concat-merge.component';
+import { MergeMapComponent } from './home/observables/merge-map/merge-map.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -39,6 +42,9 @@ const routes: Routes = [
     {path:'debounce-time-distinct-until-change',component:DebounceTimeDistinctUntilChangeComponent},
     {path:'subject',component:SubjectComponent},
     {path:'replay-subject',component:ReplaySubjectComponent},
+    {path:'async',component:AsyncComponent},
+    {path:'concat-merge',component:ConcatMergeComponent},
+    {path:'merge-map',component:MergeMapComponent},
   ]},
   {path:'**',component:HomeComponent}
 ];

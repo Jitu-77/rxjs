@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, ReplaySubject, Subject } from 'rxjs';
+import { AsyncSubject, BehaviorSubject, ReplaySubject, Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -7,6 +7,7 @@ import { BehaviorSubject, ReplaySubject, Subject } from 'rxjs';
 export class UtilityService {
   subjectTest = new Subject<any>()
   behaviorSubjectTest = new BehaviorSubject<any>('Jitu')
-  replaySubjectTest = new ReplaySubject(3, 2000)
+  replaySubjectTest = new ReplaySubject(3, 2000) // number , delay
+  asyncSubjectTest = new AsyncSubject()
   constructor() { }
 }

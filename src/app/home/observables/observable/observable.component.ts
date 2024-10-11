@@ -14,10 +14,18 @@ export class ObservableComponent {
     console.log(e)
     this.utilityService.subjectTest.next("EMIT VALUE IN HEADER CLICK TEST")
     this.utilityService.behaviorSubjectTest.next('')
+    //replay-- behavior check ---------------------------
     this.utilityService.replaySubjectTest.next('take'+this.count)
     this.utilityService.replaySubjectTest.next('take 1')
     this.utilityService.replaySubjectTest.next('take 3')
     this.utilityService.replaySubjectTest.next('take 4')
+    //-----------------------------------------------
     
+    //async -- subject check ---------------------------
+    this.utilityService.asyncSubjectTest.next('Jitu')
+    this.utilityService.asyncSubjectTest.next('Papu')
+    this.utilityService.asyncSubjectTest.next('Mala')
+    this.utilityService.asyncSubjectTest.complete()
+    //-----------------------------------------------
   }
 }
