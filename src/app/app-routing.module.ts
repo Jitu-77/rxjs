@@ -21,6 +21,7 @@ import { ReplaySubjectComponent } from './home/observables/replay-subject/replay
 import { AsyncComponent } from './home/observables/async/async.component';
 import { ConcatMergeComponent } from './home/observables/concat-merge/concat-merge.component';
 import { MergeMapComponent } from './home/observables/merge-map/merge-map.component';
+import { ConcatMapComponent } from './home/observables/concat-map/concat-map.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -45,6 +46,7 @@ const routes: Routes = [
     {path:'async',component:AsyncComponent},
     {path:'concat-merge',component:ConcatMergeComponent},
     {path:'merge-map',component:MergeMapComponent},
+    {path:'concat-map',component:ConcatMapComponent},
   ]},
   {path:'**',component:HomeComponent}
 ];
