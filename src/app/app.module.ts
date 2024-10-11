@@ -26,6 +26,8 @@ import { AsyncComponent } from './home/observables/async/async.component';
 import { ConcatMergeComponent } from './home/observables/concat-merge/concat-merge.component';
 import { MergeMapComponent } from './home/observables/merge-map/merge-map.component';
 import { ConcatMapComponent } from './home/observables/concat-map/concat-map.component';
+import { SwitchMapComponent } from './home/observables/switch-map/switch-map.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -51,11 +53,13 @@ import { ConcatMapComponent } from './home/observables/concat-map/concat-map.com
     AsyncComponent,
     ConcatMergeComponent,
     MergeMapComponent,
-    ConcatMapComponent
+    ConcatMapComponent,
+    SwitchMapComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],

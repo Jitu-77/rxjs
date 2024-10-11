@@ -22,6 +22,7 @@ import { AsyncComponent } from './home/observables/async/async.component';
 import { ConcatMergeComponent } from './home/observables/concat-merge/concat-merge.component';
 import { MergeMapComponent } from './home/observables/merge-map/merge-map.component';
 import { ConcatMapComponent } from './home/observables/concat-map/concat-map.component';
+import { SwitchMapComponent } from './home/observables/switch-map/switch-map.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -47,6 +48,7 @@ const routes: Routes = [
     {path:'concat-merge',component:ConcatMergeComponent},
     {path:'merge-map',component:MergeMapComponent},
     {path:'concat-map',component:ConcatMapComponent},
+    {path:'switch-map',component:SwitchMapComponent},
   ]},
   {path:'**',component:HomeComponent}
 ];
