@@ -23,6 +23,8 @@ import { ConcatMergeComponent } from './home/observables/concat-merge/concat-mer
 import { MergeMapComponent } from './home/observables/merge-map/merge-map.component';
 import { ConcatMapComponent } from './home/observables/concat-map/concat-map.component';
 import { SwitchMapComponent } from './home/observables/switch-map/switch-map.component';
+import { ExhaustMapComponent } from './home/observables/exhaust-map/exhaust-map.component';
+import { ShareReplayComponent } from './home/observables/share-replay/share-replay.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -49,6 +51,8 @@ const routes: Routes = [
     {path:'merge-map',component:MergeMapComponent},
     {path:'concat-map',component:ConcatMapComponent},
     {path:'switch-map',component:SwitchMapComponent},
+    {path:'exhaust-map',component:ExhaustMapComponent},
+    {path:'share-replay',component:ShareReplayComponent},
   ]},
   {path:'**',component:HomeComponent}
 ];
