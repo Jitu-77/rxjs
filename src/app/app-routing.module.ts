@@ -25,6 +25,9 @@ import { ConcatMapComponent } from './home/observables/concat-map/concat-map.com
 import { SwitchMapComponent } from './home/observables/switch-map/switch-map.component';
 import { ExhaustMapComponent } from './home/observables/exhaust-map/exhaust-map.component';
 import { ShareReplayComponent } from './home/observables/share-replay/share-replay.component';
+import { CombineLatestComponent } from './home/observables/combine-latest/combine-latest.component';
+import { ZipForkJoinComponent } from './home/observables/zip-fork-join/zip-fork-join.component';
+import { CatchErrorThrowErrorComponent } from './home/observables/catch-error-throw-error/catch-error-throw-error.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -53,6 +56,9 @@ const routes: Routes = [
     {path:'switch-map',component:SwitchMapComponent},
     {path:'exhaust-map',component:ExhaustMapComponent},
     {path:'share-replay',component:ShareReplayComponent},
+    {path:'combine-latest',component:CombineLatestComponent},
+    {path:'zip-fork-join',component:ZipForkJoinComponent},
+    {path:'catch-error-throw-error',component:CatchErrorThrowErrorComponent},
   ]},
   {path:'**',component:HomeComponent}
 ];

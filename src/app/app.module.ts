@@ -30,6 +30,9 @@ import { SwitchMapComponent } from './home/observables/switch-map/switch-map.com
 import { FormsModule } from '@angular/forms';
 import { ExhaustMapComponent } from './home/observables/exhaust-map/exhaust-map.component';
 import { ShareReplayComponent } from './home/observables/share-replay/share-replay.component';
+import { CombineLatestComponent } from './home/observables/combine-latest/combine-latest.component';
+import { ZipForkJoinComponent } from './home/observables/zip-fork-join/zip-fork-join.component';
+import { CatchErrorThrowErrorComponent } from './home/observables/catch-error-throw-error/catch-error-throw-error.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +61,10 @@ import { ShareReplayComponent } from './home/observables/share-replay/share-repl
     ConcatMapComponent,
     SwitchMapComponent,
     ExhaustMapComponent,
-    ShareReplayComponent
+    ShareReplayComponent,
+    CombineLatestComponent,
+    ZipForkJoinComponent,
+    CatchErrorThrowErrorComponent,
   ],
   imports: [
     BrowserModule,

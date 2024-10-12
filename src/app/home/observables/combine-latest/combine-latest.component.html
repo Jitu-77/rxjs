@@ -1,0 +1,24 @@
+<h3 style="margin-top: 10px;margin-left: 10px;" 
+class="d-flex align-items-center justify-content-center"> COMBINE LATEST/WITH LATEST FROM</h3>
+<br>
+<div class="d-flex align-items-center justify-content-center flex-column">
+    <h4>COMBINE LATEST -- merges and emits when 1 out of 2 obs changes  </h4>
+    <h4>WITH LATEST FORM -- merges and emits when master obs changes  </h4>
+    <h4>WITH LATEST FORM -- MASTER SLAVE COMBINATION  </h4>
+    <br>
+    <h4>Check console log</h4>
+    <select class="form-select form-select-sm mb-1" 
+    aria-label="Default select example"
+    #drp1>
+        <option selected>DROP DOWN 1</option>
+        <option value="{{item}}" *ngFor="let item of name">{{item}}</option>
+    </select>
+    <br>
+    <select class="form-select form-select-sm mb-1" 
+    aria-label="Default select example"
+    #drp2>
+        <option selected>DROP DOWN 2</option>
+        <option value="{{item}}" *ngFor="let item of count">{{item}}</option>
+    </select>
+</div>
+
